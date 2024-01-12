@@ -54,7 +54,31 @@
                         </ul>
                         <a target="_blank" class="btn btn-outline-primary fw-bolder fs-7 px-4 py-2 mt-3 rounded-pill" href="assets/Curriculo.pdf">Visualizar Currículo</a>
                            <br/>
-                        <iframe id="iframe" src="assets/Curriculo.pdf">Visualizar Currículo</iframe>
+                       
+                    <!-- IFRAME COMEÇO -->
+                       <script>
+                           function exibirIframe()
+                            {
+                                document.getElementById("iframe").style.display = "block";
+                            }
+                       </script>
+                       <style>
+                           #iframe {
+                                display: none;
+                            }
+                       </style>
+                       <div>
+                            <iframe
+                                    width="1100"
+                                    height="500"
+                                    id="iframe"
+                                    src="https://www.google.com.br"
+                                    scrolling="no">
+                            </iframe>
+                        </div>
+                        <input type="button" value="Exibir Iframe" onclick="exibirIframe();" />
+                    <!-- IFRAME FINAL -->
+                       
                     </div>
                </div>
             </div>
