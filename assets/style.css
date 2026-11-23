@@ -138,3 +138,20 @@ ul { list-style: none; }
   .facts > div + div { border-top: 1px solid var(--rule); }
   .contact-list > div { grid-template-columns: 1fr; gap: 2px; }
 }
+
+/* Experiência – detalhes */
+.exp-loc { font-size: 14px; color: var(--muted); margin-top: 2px; }
+.exp-role2 { font-size: 15px; color: var(--accent); font-weight: 600; margin-top: 2px; }
+.exp-intro { margin-top: 12px; font-size: 16px; }
+.exp-blocks > div { padding: 12px 0; border-top: 1px solid var(--rule); }
+.exp-blocks > div:first-child { margin-top: 14px; }
+.exp-blocks dt { font-weight: 600; color: var(--navy); font-size: 15.5px; }
+.exp-blocks dd { font-size: 15.5px; margin-top: 2px; }
+.exp-body .steps { margin-top: 12px; border-left: 2px solid var(--rule); }
+.exp-body .steps li { display: flex; justify-content: space-between; gap: 16px; padding: 3px 0 3px 14px; margin: 0; font-size: 15px; }
+.exp-body .steps li::before { content: none; }
+.exp-body .steps li span:last-child { color: var(--muted); white-space: nowrap; }
+.exp-body .steps + ul { margin-top: 14px; }
+@media (max-width: 520px) { .exp-body .steps li { flex-direction: column; gap: 0; } }
+.edu span { display: block; }
+.edu .edu-note { margin-top: 6px; font-size: 14.5px; color: var(--body); }
